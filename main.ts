@@ -274,9 +274,9 @@ Upload to Teams: **Apps** → **Manage your apps** → **Upload an app** → Sel
 
         // Download PNG icons from GitHub
         const colorIconUrl =
-          "https://raw.githubusercontent.com/spacelift-io/flows-app-teams-bot/main/icons/color.png";
+          "https://raw.githubusercontent.com/spacelift-flows-apps/flows-app-teams-bot/main/icons/color.png";
         const outlineIconUrl =
-          "https://raw.githubusercontent.com/spacelift-io/flows-app-teams-bot/main/icons/outline.png";
+          "https://raw.githubusercontent.com/spacelift-flows-apps/flows-app-teams-bot/main/icons/outline.png";
 
         const [colorIconResponse, outlineIconResponse] = await Promise.all([
           fetch(colorIconUrl),
